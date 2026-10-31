@@ -1,0 +1,39 @@
+# Core runtime dependencies for the voice assistant.
+#
+#   pip install -r requirements.txt
+#
+# Versions are lower bounds (">=") matching the versions this project was
+# developed and tested against. They are deliberately not upper-pinned so you
+# can pick up compatible fixes from PyPI.
+
+# Official ElevenLabs Python SDK: Scribe speech-to-text and text-to-speech.
+elevenlabs>=2.71.0
+
+# Loads configuration from a local .env file.
+python-dotenv>=1.2.4
+
+# Microphone capture and speaker playback (PortAudio bindings).
+sounddevice>=0.5.6
+
+# Audio buffers and simple DSP helpers (RMS, int16 PCM handling).
+numpy>=2.0
+
+# Web / chat UI (the graphical interface).
+streamlit>=1.65.0
+
+# HTTP client used by the OpenAI-compatible LLM backend.
+httpx>=0.28.1
+
+# WebSocket transport used by ElevenLabs realtime STT and Agents mode.
+# (Usually pulled in by the SDK, listed explicitly because we depend on it.)
+websockets>=17.2
+
+# --------------------------------------------------------------------------- #
+# Optional extras - uncomment if you need them.
+# --------------------------------------------------------------------------- #
+# Decode non-WAV audio uploaded through the push-to-talk widget:
+# soundfile>=0.14.0
+#
+# Only needed for ElevenLabs Agents mode when using the SDK's default audio
+# interface. The built-in fallback uses sounddevice, so this is optional:
+# PyAudio>=0.2.14

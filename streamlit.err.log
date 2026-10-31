@@ -1,0 +1,31 @@
+2026-10-12 15:03:08.485 Uvicorn server started on :::8501
+15:06:26 INFO    voice_assistant.llm: No LLM credentials found; using offline response backend.
+15:06:26 INFO    voice_assistant.assistant: Assistant ready: {'assistant_name': 'Aria', 'stt_model_id': 'scribe_v2', 'stt_mode': 'batch', 'stt_language_code': None, 'tts_model_id': 'eleven_turbo_v2_5', 'tts_voice_id': 'JBFqnCBsd6RMkjVDRZzb', 'tts_output_format': 'pcm_24000', 'llm_provider': 'offline', 'llm_model': 'gpt-4o-mini', 'sample_rate': 16000, 'elevenlabs_configured': True}
+15:06:26 INFO    voice_assistant.assistant: Aria is listening. Speak whenever you're ready.
+15:06:33 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+15:06:35 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+15:06:49 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+15:06:50 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+15:07:07 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+15:07:08 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+15:07:20 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+15:07:21 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+15:07:51 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+15:07:51 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+15:08:04 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+15:08:05 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+15:08:18 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+15:08:19 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+16:07:58 INFO    voice_assistant.llm: No LLM credentials found; using offline response backend.
+16:07:58 INFO    voice_assistant.assistant: Assistant ready: {'assistant_name': 'Aria', 'stt_model_id': 'scribe_v2', 'stt_mode': 'batch', 'stt_language_code': None, 'tts_model_id': 'eleven_turbo_v2_5', 'tts_voice_id': 'JBFqnCBsd6RMkjVDRZzb', 'tts_output_format': 'pcm_24000', 'llm_provider': 'offline', 'llm_model': 'gpt-4o-mini', 'sample_rate': 16000, 'elevenlabs_configured': True}
+16:07:58 INFO    voice_assistant.assistant: Aria is listening. Speak whenever you're ready.
+16:08:04 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+16:08:05 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+16:08:15 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+16:08:16 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+16:08:35 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+16:08:36 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+16:09:07 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+16:09:08 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
+16:09:25 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/speech-to-text "HTTP/1.1 200 OK"
+16:09:26 INFO    httpx: HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream?output_format=pcm_24000 "HTTP/1.1 200 OK"
